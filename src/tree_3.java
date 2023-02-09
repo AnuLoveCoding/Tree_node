@@ -36,6 +36,28 @@ public class tree_3 {
         preorder(tree.right);
     }
 
+//  find the height of tree is this way;
+    public static int height(tree_3 tree){
+       if(tree == null) {
+           return 0;
+       }
+       int l = height(tree.left);
+       int r = height(tree.right);
+
+       return Math.max(l,r) + 1;
+    }
+
+//    count the nodes of tree of this way;
+      public static int nodes(tree_3 tree){
+        if(tree == null){
+            return 0;
+        }
+        int l = nodes(tree.left);
+        int r = nodes(tree.right);
+
+        return l + r + 1;
+      }
+
     public static void main(String[] args) {
         tree_3 tree = new tree_3(55,null,null);
         tree_3 tree_left = new tree_3(10,null,null);
@@ -58,9 +80,14 @@ public class tree_3 {
 
         tree_right_right.left = tree_right_right_left;
 
-        Inorder(tree);
+//        Inorder(tree);
 //        PoOrder(tree);
 //        preorder(tree);
 
+//       int ans = height(tree);
+//        System.out.println("The height of tree is : "+ans);
+
+        int ans1 =  nodes(tree);
+        System.out.println("count of nodes " + ans1);
     }
 }
