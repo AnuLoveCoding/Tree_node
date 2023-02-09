@@ -1,4 +1,3 @@
-//import java.util.Scanner;
 
 public class tee_1 {
     int val;
@@ -38,7 +37,11 @@ public class tee_1 {
     }
     public static void main(String[] args) {
 //        Scanner scn = new Scanner(System.in);
-
+//         tee_1 [] node = new tee_1[10];
+//
+//        for (int i = 0; i < 10 ; i++) {
+//            node[i] = new tee_1(i,null,null);
+//        }
         tee_1 tree_node = new tee_1(1,null,null);
         tee_1 tree_node_left = new tee_1(6,null,null);
         tee_1 tree_node_right = new tee_1(2,null,null);
@@ -52,5 +55,7 @@ public class tee_1 {
         preOrder(tree_node);
         inOrder(tree_node);
         poOrder(tree_node);
+
+
     }
 }
