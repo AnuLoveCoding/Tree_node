@@ -48,7 +48,7 @@ public class tree_3 {
     }
 
 //    count the nodes of tree of this way;
-      public static int nodes(tree_3 tree){
+    public static int nodes(tree_3 tree){
         if(tree == null){
             return 0;
         }
@@ -56,7 +56,7 @@ public class tree_3 {
         int r = nodes(tree.right);
 
         return l + r + 1;
-      }
+    }
 
     public static void main(String[] args) {
         tree_3 tree = new tree_3(55,null,null);
@@ -84,10 +84,8 @@ public class tree_3 {
 //        PoOrder(tree);
 //        preorder(tree);
 
-//       int ans = height(tree);
-//        System.out.println("The height of tree is : "+ans);
+        System.out.println("The height of tree is : "+ height(tree));
 
-        int ans1 =  nodes(tree);
-        System.out.println("count of nodes " + ans1);
+        System.out.println("count of nodes : " + nodes(tree));
     }
 }
