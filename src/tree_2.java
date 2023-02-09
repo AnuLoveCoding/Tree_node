@@ -46,6 +46,8 @@ public class tree_2 {
         tree_2 tree_left_right = new tree_2(64,null,null);
         tree_2 tree_right_left = new tree_2(41,null,null);
         tree_2 tree_right_right = new tree_2(56,null,null);
+        tree_2 tree_left_left_left = new tree_2(81,null,null);
+        tree_2 tree_left_left_right = new tree_2(54,null,null);
 
         tree.left = tree_left;
         tree.right = tree_right;
@@ -55,6 +57,9 @@ public class tree_2 {
 
         tree_right.left = tree_right_left;
         tree_right.right = tree_right_right;
+
+        tree_left_left.left = tree_left_left_left;
+        tree_left_left.right = tree_left_left_right;
 
         preOrder(tree);
         inOrder(tree);
