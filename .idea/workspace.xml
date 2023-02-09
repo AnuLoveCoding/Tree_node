@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed41662-e4fa-4905-bb11-a3e51ecf9776" name="Changes" comment="Tree_node project">
+    <list default="true" id="8ed41662-e4fa-4905-bb11-a3e51ecf9776" name="Changes" comment="git commit -m &quot;Tree_project&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675930049891</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="git commit -m &quot;Tree_project&quot;">
+      <created>1675930285367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675930285367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,8 +148,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git commit -m &quot;Tree_project&quot;" />
     <MESSAGE value="Tree_node project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree_node project" />
+    <MESSAGE value="git commit -m &quot;Tree_project&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Tree_project&quot;" />
   </component>
 </project>
