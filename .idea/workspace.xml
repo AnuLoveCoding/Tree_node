@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed41662-e4fa-4905-bb11-a3e51ecf9776" name="Changes" comment="Tree_node project">
-      <change afterPath="$PROJECT_DIR$/src/tree_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tee_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tee_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.tree_2">
     <configuration name="tee_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tee_1" />
       <module name="Tree_node" />
@@ -48,8 +47,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tree_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree_2" />
+      <module name="Tree_node" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tree_2" />
         <item itemvalue="Application.tee_1" />
       </list>
     </recent_temporary>
@@ -98,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675179403531</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tree_node project">
+      <created>1675928863104</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675928863104</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
