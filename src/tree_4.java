@@ -91,6 +91,8 @@ public class tree_4 {
 
 
 
+
+
 //      inOrder(tree);
       preorder(tree);
       System.out.println("\t");
