@@ -58,7 +58,7 @@ public class tree_3 {
         return l + r + 1;
     }
 
-//    find the maximun data in tree node;
+//    find the maximum data in tree node;
     public static int maximum(tree_3 tree){
         if(tree == null){
             return Integer.MIN_VALUE;
@@ -78,6 +78,28 @@ public class tree_3 {
         return ans;
     }
 
+//    find the minimum in tree node;
+
+    public static int minimum(tree_3 tree){
+        if(tree == null){
+            return Integer.MAX_VALUE;
+        }
+
+        int ans = tree.data;
+        int left = minimum(tree.left);
+        int right = minimum(tree.right);
+
+        if(left < ans){
+            ans = left;
+        }
+
+        if(right < ans){
+            ans = right;
+        }
+
+        return ans;
+    }
+
     public static void main(String[] args) {
         tree_3 tree = new tree_3(55,null,null);
         tree_3 tree_left = new tree_3(10,null,null);
@@ -85,7 +107,7 @@ public class tree_3 {
         tree_3 tree_left_left = new tree_3(24,null,null);
         tree_3 tree_left_right = new tree_3(68,null,null);
         tree_3 tree_right_right = new tree_3(25,null,null);
-        tree_3 tree_left_right_right = new tree_3(3,null,null);
+        tree_3 tree_left_right_right = new tree_3(31,null,null);
         tree_3 tree_right_right_left = new tree_3(40,null,null);
 
         tree.left = tree_left;
@@ -109,5 +131,6 @@ public class tree_3 {
 //        System.out.println("count of nodes : " + nodes(tree));
 
         System.out.println("maximum value in tree node : "+maximum(tree));
+        System.out.println("minimum value in tree node : "+minimum(tree));
     }
 }
