@@ -38,6 +38,15 @@ public class tree_4 {
       inOrder(tree.right);
   }
 
+    public static void preorder(tree_4 tree){
+        if(tree == null){
+            return;
+        }
+        System.out.println(tree.value);
+        preorder(tree.left);
+        preorder(tree.right);
+    }
+
   public static void main(String[] args) {
       Scanner scn = new Scanner(System.in);
      tree_4 tree = new tree_4(15);
@@ -58,6 +67,7 @@ public class tree_4 {
       tree.insert(tree,3);
 
 
-      inOrder(tree);
+//      inOrder(tree);
+      preorder(tree);
   }
 }
