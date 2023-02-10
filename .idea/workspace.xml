@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed41662-e4fa-4905-bb11-a3e51ecf9776" name="Changes" comment="git commit -m &quot;Tree_project&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.tree_3">
+  <component name="RunManager" selected="Application.tree_4">
     <configuration name="tee_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tee_1" />
       <module name="Tree_node" />
@@ -66,8 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tree_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree_4" />
+      <module name="Tree_node" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tree_4" />
         <item itemvalue="Application.tree_3" />
         <item itemvalue="Application.tree_2" />
         <item itemvalue="Application.tee_1" />
@@ -195,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676024386598</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="git commit -m &quot;Tree_project&quot;">
+      <created>1676024692864</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676024692864</updated>
+    </task>
+    <task id="LOCAL-00018" summary="git commit -m &quot;Tree_project&quot;">
+      <created>1676024952894</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676024952894</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
