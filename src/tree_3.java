@@ -126,9 +126,9 @@ public class tree_3 {
 //        PoOrder(tree);
 //        preorder(tree);
 
-//        System.out.println("The height of tree is : "+ height(tree));
+        System.out.println("The height of tree is : "+ height(tree));
 
-//        System.out.println("count of nodes : " + nodes(tree));
+        System.out.println("count of nodes : " + nodes(tree));
 
         System.out.println("maximum value in tree node : "+maximum(tree));
         System.out.println("minimum value in tree node : "+minimum(tree));
