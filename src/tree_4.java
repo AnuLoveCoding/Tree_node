@@ -9,9 +9,7 @@ public class tree_4 {
       this.value = value;
   }
 
-
-
-    //  Insert a value in a binary tree;
+  //  Insert a value in a binary tree;
   public static tree_4 insert(tree_4 tree, int value){
         if(tree == null){
             tree = new tree_4(value);
@@ -47,9 +45,31 @@ public class tree_4 {
         preorder(tree.right);
     }
 
+    public static int count_nodes(tree_4 tree){
+      if(tree == null){
+          return 0;
+      }
+
+      int l = count_nodes(tree.left);
+      int r = count_nodes(tree.right);
+
+      return  l + r + 1;
+    }
+  public static int height(tree_4 tree){
+      if(tree == null){
+          return 0;
+      }
+      int l = height(tree.left);
+      int r = height(tree.right);
+
+      return Math.max(l, r) + 1;
+  }
+
   public static void main(String[] args) {
       Scanner scn = new Scanner(System.in);
-     tree_4 tree = new tree_4(15);
+      tree_4 tree = new tree_4(15);
+
+      tree.left = new tree_4(25);
 
 //      System.out.println("Enter the value of binary tree");
 //      int  value = scn.nextInt();
@@ -65,9 +85,17 @@ public class tree_4 {
       tree.insert(tree,65);
       tree.insert(tree,87);
       tree.insert(tree,3);
+      tree.insert(tree,8);
+      tree.insert(tree,16);
+      tree.insert(tree,21);
+
 
 
 //      inOrder(tree);
       preorder(tree);
+      System.out.println("\t");
+      System.out.println("count of node is : "+ count_nodes(tree));
+      System.out.println("\t");
+      System.out.println("height of node is : "+ height(tree));
   }
 }
