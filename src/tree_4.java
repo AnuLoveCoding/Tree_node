@@ -9,7 +9,9 @@ public class tree_4 {
       this.value = value;
   }
 
-//  Insert a value in a binary tree;
+
+
+    //  Insert a value in a binary tree;
   public static tree_4 insert(tree_4 tree, int value){
         if(tree == null){
             tree = new tree_4(value);
@@ -45,9 +47,16 @@ public class tree_4 {
 
 
 //      System.out.println(insert(tree,value));
-      insert(tree,60);
-      insert(tree,65);
-      insert(tree,20);
+
+
+      tree.insert(tree,84);
+      tree.insert(tree,64);
+      tree.insert(tree,4);
+      tree.insert(tree,10);
+      tree.insert(tree,65);
+      tree.insert(tree,87);
+      tree.insert(tree,3);
+
 
       inOrder(tree);
   }
