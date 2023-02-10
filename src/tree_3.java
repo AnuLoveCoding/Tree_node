@@ -58,6 +58,26 @@ public class tree_3 {
         return l + r + 1;
     }
 
+//    find the maximun data in tree node;
+    public static int maximum(tree_3 tree){
+        if(tree == null){
+            return Integer.MIN_VALUE;
+        }
+        int ans = tree.data;
+        int left = maximum(tree.left);
+        int right = maximum(tree.right);
+
+        if(left > ans){
+            ans = left;
+        }
+
+        if(right > ans){
+            ans = right;
+        }
+
+        return ans;
+    }
+
     public static void main(String[] args) {
         tree_3 tree = new tree_3(55,null,null);
         tree_3 tree_left = new tree_3(10,null,null);
@@ -84,8 +104,10 @@ public class tree_3 {
 //        PoOrder(tree);
 //        preorder(tree);
 
-        System.out.println("The height of tree is : "+ height(tree));
+//        System.out.println("The height of tree is : "+ height(tree));
 
-        System.out.println("count of nodes : " + nodes(tree));
+//        System.out.println("count of nodes : " + nodes(tree));
+
+        System.out.println("maximum value in tree node : "+maximum(tree));
     }
 }
